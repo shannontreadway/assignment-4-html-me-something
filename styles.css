@@ -30,6 +30,15 @@ h3 {
     padding-left: 5px;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 1.25em;
+    background-color: cornflowerblue;
+    padding-top: 40px;
+    padding-left: 5px;
+    text-align: center;
+}
+
 #intro {
     font-size: 1.25em;
     background-color: cornflowerblue;
@@ -46,6 +55,8 @@ img {
     border-style: solid;
     border-width: medium;
     border-color: snow;
+    max-width: 150px;
+    height: auto;
 }
 
 figcaption {
@@ -75,7 +86,7 @@ li {
 }
 
 .mainPara {
-    padding: 20px 20px 10px;
+    padding: 0px 20px 0px;
     font-size: 1.25em;
     background-color: cornflowerblue;
 }
@@ -83,4 +94,14 @@ li {
 a {
     color: midnightblue;
     font-weight: bold;
+}
+
+.img-para {
+    display: flex;
+    padding-top: 15px;
+    background-color: cornflowerblue;
+}
+
+p {
+    line-height: 1.25em;
 }
